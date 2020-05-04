@@ -9,10 +9,11 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
-    <div class="ststus-bar">
+  <body class="chats-body">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:00</span>
       </div>
@@ -27,7 +28,7 @@
     <header class="header">
       <div class="header__header-column">
         <a href="index.html" class="header__back-btn">
-          <i class="fas fa-arrow-left fa-2x"></i>
+          <i class="fas fa-arrow-left"></i>
         </a>
         <h1 class="header__header-title">Best Friend</h1>
       </div>
@@ -40,25 +41,41 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, January 11, 2019</span>
-        <li class="incoming-message chat__messages">
-          <img src="images/avatar.jpg" class="g-avatart message__avatar" />
+        <li class="incoming-message message">
+          <img src="images/avatar.jpg" class="m-avatart message__avatar" />
           <div class="message__content">
             <span class="message__author">Best Friend</span>
-            <div class="message_bubble">
+            <span class="message__bubble">
               Congrats I love you !
-            </div>
+            </span>
           </div>
-          <div class="message__timestamp"></div>
         </li>
-        <li class="incoming-message chat__messages">
+        <li class="sent-message message">
           <div class="message__timestamp"></div>
           <div class="message__content">
-            <div class="message_bubble">
+            <span class="message__bubble">
+              Thank you see you soon!
+            </span>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img src="images/avatar.jpg" class="m-avatart message__avatar" />
+          <div class="message__content">
+            <span class="message__author">Best Friend</span>
+            <span class="message__bubble">
               Congrats I love you !
-            </div>
+            </span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <div class="message__timestamp"></div>
+          <div class="message__content">
+            <span class="message__bubble">
+              Thank you see you soon!
+            </span>
           </div>
         </li>
       </ul>

@@ -9,10 +9,11 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Find | Kakao Clone</title>
   </head>
   <body>
-    <div class="ststus-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:00</span>
       </div>
@@ -78,7 +79,7 @@
         <h5 class="find__title">Recommended friends</h4>
         <li class="find__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend_avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Nicolas Serrano
@@ -86,7 +87,7 @@
             </div>
           </div>
           <div class="friend__column">
-            <div class="friend__now-listening">
+            <div class="friend__add-btn">
               <i class="fas fa-user-plus"></i>
             </div>
           </div>
@@ -96,22 +97,23 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
-          <a href="friends.html" class="nav__list-lin">
+          <a href="friends.html" class="nav__list-link">
             <i class="far fa-user"></i>
           </a>
         </li>
         <li class="nav__list-item">
-          <a href="index.html" class="nav__list-lin">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="far fa-comment"></i>
           </a>
         </li>
         <li class="nav__list-item">
-          <a href="find.html" class="nav__list-lin">
+          <a href="find.html" class="nav__list-link">
             <i class="fas fa-search"></i>
           </a>
         </li>
         <li class="nav__list-item">
-          <a href="more.html" class="nav__list-lin">
+          <a href="more.html" class="nav__list-link">
             <i class="fas fa-ellipsis-h"></i>
           </a>
         </li>
